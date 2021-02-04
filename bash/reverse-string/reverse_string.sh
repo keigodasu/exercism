@@ -2,7 +2,7 @@
 
 
 main () {
-	echo "$1" | rev
+	rev <<< "$1"
 }
 
 main "$@"
